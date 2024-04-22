@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="actions.js" defer></script>
+</head>
+
+<body>
+    <main>
+
+        <h1>Formulário</h1>
+        <hr>
+
+        <form action="" id="form">
+            <label for="name" id="labelNome">Nome:
+                <input type="text" name="nome" id="nome" autocomplete="name">
+            </label>
+            <label for="sobrenome" id="labelSobrenome">Sobrenome:
+                <input type="text" name="sobrenome" id="sobrenome" autocomplete="family-name">
+            </label>
+            <label for="email" id="labelEmail">Email:
+                <input type="email" name="email" id="email" autocomplete="email">
+            </label>
+            <label for="password" id="labelPassword">Senha:
+                <input type="password" id="password" name="password" autocomplete="new-password" required>
+            </label>
+            <label for="confirmPassword" id="labelConfirmaPassword">Confirmação de senha:
+                <input type="password" id="confirmPassword" name="confirmPassword" autocomplete="new-password">
+            </label>
+
+            <button type="button" id="submit">Enviar</button>
+        </form>
+
+    </main>
+</body>
+
+</html>
